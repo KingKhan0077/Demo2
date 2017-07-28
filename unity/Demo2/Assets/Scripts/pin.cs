@@ -22,12 +22,7 @@ public class pin : MonoBehaviour {
 
 
         }
-        if (!ispin)
-        {
-            rb.MovePosition(rb.position + Vector2.up * speed * Time.deltaTime);
-
-
-        }
+        
     }
     public void OnTriggerEnter2D(Collider2D col)
     {
@@ -44,3 +39,5 @@ public class pin : MonoBehaviour {
         }
     }
 }
+
+
